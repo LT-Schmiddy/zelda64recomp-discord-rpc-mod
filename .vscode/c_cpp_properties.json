@@ -3,10 +3,11 @@
         {
             "name": "Combined",
             "includePath": [
-                "${workspaceFolder}/include/shared/",
+                // "${workspaceFolder}/include/shared/",
                 "${workspaceFolder}/include/mod/",
                 "${workspaceFolder}/include/mod/dummy_headers",
                 "${workspaceFolder}/include/extlib",
+                "${workspaceFolder}/discord_social_sdk/discord_social_sdk/include",
                 "${workspaceFolder}/src/extlib",
                 "${workspaceFolder}/src/mod",
                 "${workspaceFolder}/mm-decomp/include",
@@ -53,8 +54,9 @@
             "name": "Lib_Win32_Only",
             "cppStandard": "c++20",
             "includePath": [
-                "${workspaceFolder}/include/shared/",
+                // "${workspaceFolder}/include/shared/",
                 "${workspaceFolder}/include/extlib",
+                "${workspaceFolder}/discord_social_sdk/discord_social_sdk/include",
                 "${workspaceFolder}/offline_build"
             ]
         },
@@ -62,8 +64,9 @@
             "name": "Lib_Mac_Only",
             "cppStandard": "c++20",
             "includePath": [
-                "${workspaceFolder}/include/shared/",
+                // "${workspaceFolder}/include/shared/",
                 "${workspaceFolder}/include/extlib",
+                "${workspaceFolder}/discord_social_sdk/discord_social_sdk/include",
                 "${workspaceFolder}/offline_build"
             ]
         },
@@ -71,8 +74,9 @@
             "name": "Lib_Linux_Only",
             "cppStandard": "c++20",
             "includePath": [
-                "${workspaceFolder}/include/shared/",
+                // "${workspaceFolder}/include/shared/",
                 "${workspaceFolder}/include/extlib",
+                "${workspaceFolder}/discord_social_sdk/discord_social_sdk/include",
                 "${workspaceFolder}/offline_build"
             ]
         }
