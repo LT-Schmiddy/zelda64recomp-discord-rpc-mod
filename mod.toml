@@ -5,7 +5,7 @@
 
 # Unique ID of this mod. Pick something long enough that it'll never be the same as any other mod.
 # The name displayed in the mod management menu is separate from this so this doesn't need to be human readable.
-id = "mm_recomp_mod_template"
+id = "mm_zdrpc"
 
 # Version of this mod.
 version = "1.0.0"
@@ -25,7 +25,7 @@ For more details, see https://github.com/Zelda64Recomp/MMRecompModTemplate."""
 short_description = "This is an example mod for Majora's Mask: Recompiled."
 
 # Authors of this mod.
-authors = [ "Your name here" ]
+authors = [ "LT_Schmiddy" ]
 
 # ID of the target recomp game.
 game_id = "mm"
@@ -42,7 +42,7 @@ dependencies = [
 # Native libraries (e.g. DLLs) and the functions they export.
 native_libraries = [
 # Example native library:
-   { name = "mm_recomp_mod_template_extlib", funcs = ["native_lib_test"] }
+   { name = "zdrpc_native", funcs = ["native_lib_test"] }
 ]
 
 # Inputs to the mod tool.
@@ -52,7 +52,7 @@ native_libraries = [
 elf_path = "build/mod.elf"
 
 # Output mod filename.
-mod_filename = "mm_recomp_mod_template"
+mod_filename = "mm_zdrpc"
 
 # Reference symbol files.
 func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
@@ -67,7 +67,7 @@ additional_files = [ ]
 [extlib_compiling]
 
 # # Name of the extlib. This information is passed to CMake as the target name for the extlib.
-library_name = "mm_recomp_mod_template_extlib"
+library_name = "zdrpc_native"
 
 # Your CMake presets in this file should be designed to handle cross-compilation (using the provided
 # Zig toolchain is recommended). When building the mod, CMake will be invoked 3 times to build
