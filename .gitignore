@@ -17,8 +17,10 @@ patches.map
 assets_extracted/
 build/
 runtime/
+discord_social_sdk/
 .vscode/settings.json
 .vscode/launch.json
 .vscode/tasks.json
 user_build_config.json
 CMakeUserPresets.json
+DiscordSocialSDK*.zip

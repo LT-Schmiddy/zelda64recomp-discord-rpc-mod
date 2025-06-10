@@ -4,6 +4,8 @@ EXTLIB_PREFIX := lib
 ASSETS_EXTRACTED_DIR ?= assets_extracted
 ASSETS_INCLUDE_DIR ?= assets_extracted/assets
 
+DISCORD_SOCIAL_SDK_EXTRACTED_DIR ?= discord_social_sdk
+
 ifeq ($(OS),Windows_NT)
 PYTHON_EXEC ?= python
 else
@@ -170,21 +172,24 @@ $(RECOMP_MOD_TOOL): $(N64RECOMP_BUILD_DIR)
 	cmake --build $(N64RECOMP_BUILD_DIR)
 
 # Extlib Recipes:
+$(DISCORD_SOCIAL_SDK_EXTRACTED_DIR):
+	$(call call_python_func,setup_discord_social_sdk,\"$(DISCORD_SOCIAL_SDK_EXTRACTED_DIR)\")
+
 extlib-all: extlib-win extlib-macos extlib-linux
 
-extlib-win:
+extlib-win: $(DISCORD_SOCIAL_SDK_EXTRACTED_DIR)
 	cmake --preset=$(ZIG_WINDOWS_CONFIGURE_PRESET) -DLIB_NAME=$(EXTLIB_NAME) .
 	cmake --build --preset=$(ZIG_WINDOWS_BUILD_PRESET)
 
-extlib-macos:
+extlib-macos: $(DISCORD_SOCIAL_SDK_EXTRACTED_DIR)
 	cmake --preset=$(ZIG_MACOS_CONFIGURE_PRESET) -DLIB_NAME=$(EXTLIB_NAME) .
 	cmake --build --preset=$(ZIG_MACOS_BUILD_PRESET)
 
-extlib-linux:
+extlib-linux: $(DISCORD_SOCIAL_SDK_EXTRACTED_DIR)
 	cmake --preset=$(ZIG_LINUX_CONFIGURE_PRESET) -DLIB_NAME=$(EXTLIB_NAME) .
 	cmake --build --preset=$(ZIG_LINUX_BUILD_PRESET)
 
-extlib-native:
+extlib-native: $(DISCORD_SOCIAL_SDK_EXTRACTED_DIR)
 	cmake --preset=$(NATIVE_CMAKE_CONFIGURE_PRESET) -DLIB_NAME=$(EXTLIB_NAME) .
 	cmake --build --preset=$(NATIVE_CMAKE_BUILD_PRESET)
 

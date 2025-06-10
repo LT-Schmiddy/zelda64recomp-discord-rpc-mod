@@ -45,8 +45,6 @@ class ModInfo:
         self.runtime_native_file: Path = None
         self.runtime_native_pdb_file: Path = None
         
-        
-        
     def set_extlib_info(self, windows_lib: str, macos_lib: str, linux_lib: str, native_lib: str):
         self.build_dll_file = self.project_root.joinpath(windows_lib)
         self.build_pdb_file = self.build_dll_file.with_suffix(".pdb")
@@ -183,6 +181,23 @@ class ModInfo:
             return None
         return self.print_and_return(self.user_config["extlib_compiling"]["preset_groups"][build_type]["native"]["build"])
 
+    def setup_discord_social_sdk(self, sdk_extract_path_str: str):
+        dss_name = None
+        
+        for i in os.listdir(self.project_root):
+            if i.startswith("DiscordSocialSdk") and i.endswith(".zip"):
+                dss_name = i
+                break
+        
+        if dss_name is None:
+            raise RuntimeError("DiscordSocialSdk not found for extraction. Make sure that a file following the naming scheme of `DiscordSocialSdk*.zip is in your project root folder.")
+        
+        dss_extracted_path = self.project_root.joinpath(sdk_extract_path_str)
+        dss_path = self.project_root.joinpath(dss_name)
+        print(f"Discord Social Sdk folder '{dss_extracted_path.name}' not found. Extracting assets from '{dss_path.name}'...")
+        with zipfile.ZipFile(dss_path, 'r') as zip_ref:
+            zip_ref.extractall(sdk_extract_path_str)
+    
     def create_asset_archive(self, assets_extract_path_str: str):
             assets_extract_path = self.project_root.joinpath(assets_extract_path_str)
             print(f"Assets folder '{assets_extract_path.name}' not found. Extracting assets from '{self.assets_archive_path.name}'...")
