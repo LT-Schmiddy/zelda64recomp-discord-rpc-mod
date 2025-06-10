@@ -1,0 +1,110 @@
+00	03	Z2_ZONCHONOIE	Zelda 2 - Mayor's House	Mayor's Residence
+01	01	Z2_LAST_BS	Zelda 2 - Last - Boss	Majora's Lair
+02	01	Z2_WITCH_SHOP	Zelda 2 - Witch - Shop	Magic Hags' Potion Shop
+03	02	Z2_OMOYA	Zelda 2 - Main Building	Ranch House & Barn
+04	01	Z2_BOWLING	Zelda 2 - Bowling	Honey & Darling's Shop
+05	02	Z2_HAKASHITA	Zelda 2 - Under Grave	Beneath the Graves
+06	0B	Z2_20SICHITAI2	Zelda 2 - 20 Damp Area 2	Southern Swamp (Clear)
+07	04	Z2_AYASHIISHOP	Zelda 2 - Suspicious Shop	Curiosity Shop
+08	00			
+09	00			
+0A	11	KAKUSIANA	Hidden Grottos	Grottos
+0B	00			
+0C	00			
+0D	00			
+0E	0A	SPOT00	Spot 00	Cutscene Map
+0F	00			
+10	10	Z2_IKANA	Zelda 2 - Ikana	Ikana Canyon
+11	0F	Z2_KAIZOKU	Zelda 2 - Pirates	Pirates' Fortress
+12	01	Z2_MILK_BAR	Zelda 2 - Milk - Bar	Milk Bar
+13	02	Z2_INISIE_N	Zelda 2 - Ancient - Normal	Stone Tower Temple
+14	02	Z2_TAKARAYA	Zelda 2 - Treasure Shop	Treasure Chest Shop
+15	03	Z2_INISIE_R	Zelda 2 - Ancient - Reversed	Stone Tower Temple (Inverted)
+16	03	Z2_OKUJOU	Zelda 2 - Rooftop	Clock Tower Rooftop
+17	05	Z2_OPENINGDAN	Zelda 2 - Opening Dungeon	Before the Portal to Termina
+18	03	Z2_MITURIN	Zelda 2 - Jungle	Woodfall Temple
+19	02	Z2_13HUBUKINOMITI	Zelda 2 - 13 Blizzard Path	Path to Mountain Village
+1A	07	Z2_CASTLE	Zelda 2 - Castle	Ancient Castle of Ikana
+1B	02	Z2_DEKUTES	Zelda 2 - Deku Test	Deku Scrub Playground
+1C	01	Z2_MITURIN_BS	Zelda 2 - Jungle - Boss	Odolwa's Lair
+1D	02	Z2_SYATEKI_MIZU	Zelda 2 - Shooting Gallery - Water	Shooting Gallery (Town)
+1E	02	Z2_HAKUGIN	Zelda 2 - Snow	Snowhead Temple
+1F	07	Z2_ROMANYMAE	Zelda 2 - Before Romani	Milk Road
+20	10	Z2_PIRATE	Zelda 2 - Pirate	Pirates' Fortress Interior
+21	01	Z2_SYATEKI_MORI	Zelda 2 - Shooting Gallery - Forest	Shooting Gallery (Swamp)
+22	02	Z2_SINKAI	Zelda 2 - Deep Sea	Pinnacle Rock
+23	0A	Z2_YOUSEI_IZUMI	Zelda 2 - Fairy - Fountain	Fairy's Fountain
+24	01	Z2_KINSTA1	Zelda 2 - Gold Skulltula 1	Swamp Spider House
+25	01	Z2_KINDAN2	Zelda 2 - Gold Skulltula Dungeon 2	Oceanside Spider House
+26	03	Z2_TENMON_DAI	Zelda 2 - Astral - Observatory	Astral Observatory
+27	01	Z2_LAST_DEKU	Zelda 2 - Last - Deku	The Moon - Deku Trial
+28	0B	Z2_22DEKUCITY	Zelda 2 - 22 Deku City	Deku Palace
+29	01	Z2_KAJIYA	Zelda 2 - Blacksmith	Mountain Smithy
+2A	0F	Z2_00KEIKOKU	Zelda 2 - 00 Valley	Termina Field
+2B	01	Z2_POSTHOUSE	Zelda 2 - Post Office	Post Office
+2C	01	Z2_LABO	Zelda 2 - Laboratory	Marine Research Laboratory
+2D	02	Z2_DANPEI2TEST	Zelda 2 - Dampé 2 Test	Dampé's House
+2E	00	null		
+2F	04	Z2_16GORON_HOUSE	Zelda 2 - 16 Goron - House	Goron Shrine
+30	09	Z2_33ZORACITY	Zelda 2 - 33 Zora City	Zora Hall
+31	02	Z2_8ITEMSHOP	Zelda 2 - 8 Item Shop	Trading Post
+32	0C	Z2_F01	Zelda 2 - Field 01	Romani Ranch
+33		Z2_INISIE_BS	Zelda 2 - Ancient - Boss	Twinmold's Lair
+34	0E	Z2_30GYOSON	Zelda 2 - 30 Fishing Village	Great Bay Coast
+35	0A	Z2_31MISAKI	Zelda 2 - 31 Cape	Zora Cape
+36	01	Z2_TAKARAKUJI	Zelda 2 - Lottery	Lottery Shop
+37	00	null		
+38	07	Z2_TORIDE	Zelda 2 - Fortress	Pirates' Fortress Exterior
+39	01	Z2_FISHERMAN	Zelda 2 - Fisherman	Fisherman's Hut
+3A	01	Z2_GORONSHOP	Zelda 2 - Goron Shop	Goron Shop
+3B	04	Z2_DEKU_KING	Zelda 2 - Deku - King	Deku King's Chamber
+3C	01	Z2_LAST_GORON	Zelda 2 - Last - Goron	The Moon - Goron Trial
+3D	03	Z2_24KEMONOMITI	Zelda 2 - 24 Beast Path	Road to Southern Swamp
+3E	02	Z2_F01_B	Zelda 2 - Field 01 - B	Doggy Racetrack
+3F	02	Z2_F01C	Zelda 2 - Field 01 C	Cucco Shack
+40	06	Z2_BOTI	Zelda 2 - Graveyard	Ikana Graveyard
+41	01	Z2_HAKUGIN_BS	Zelda 2 - Snow - Boss	Goht's Lair
+42	0B	Z2_20SICHITAI	Zelda 2 - 20 Damp Area	Southern Swamp (Poisoned)
+43	05	Z2_21MITURINMAE	Zelda 2 - Before Jungle	Woodfall
+44	02	Z2_LAST_ZORA	Zelda 2 - Last - Zora	The Moon - Zora Trial
+45	05	Z2_11GORONNOSATO2	Zelda 2 - 11 Goron Village 2	Goron Village (Spring)
+46	03	Z2_SEA	Zelda 2 - Sea	Great Bay Temple
+47	04	Z2_35TAKI	Zelda 2 - 35 Waterfall	Waterfall Rapids
+48	02	Z2_REDEAD	Zelda 2 - Redead	Beneath the Well
+49	07	Z2_BANDROOM	Zelda 2 - Band Room	Zora Hall Rooms
+4A	05	Z2_11GORONNOSATO	Zelda 2 - 11 Goron Village	Goron Village (Winter)
+4B	02	Z2_GORON_HAKA	Zelda 2 - Goron - Grave	Goron Graveyard
+4C	01	Z2_SECOM	Zelda 2 - Sakon	Sakon's Hideout
+4D	09	Z2_10YUKIYAMANOMURA	Zelda 2 - 10 Snowy Mountain Village	Mountain Village (Winter)
+4E	03	Z2_TOUGITES	Zelda 2 - Contest Test	Ghost Hut
+4F	03	Z2_DANPEI	Zelda 2 - Dampé	Deku Shrine
+50	03	Z2_IKANAMAE	Zelda 2 - Before Ikana	Road to Ikana
+51	01	Z2_DOUJOU	Zelda 2 - Dojo	Swordsman's School
+52	01	Z2_MUSICHOUSE	Zelda 2 - Music House	Music Box House
+53	01	Z2_IKNINSIDE	Zelda 2 - Ikana Inside	Igos du Ikana's Lair
+54	03	Z2_MAP_SHOP	Zelda 2 - Map - Shop	Tourist Information
+55	04	Z2_F40	Zelda 2 - Field 40	Stone Tower
+56	02	Z2_F41	Zelda 2 - Field 41	Stone Tower (Inverted)
+57	09	Z2_10YUKIYAMANOMURA2	Zelda 2 - 10 Snowy Mountain Village 2	Mountain Village (Spring)
+58	02	Z2_14YUKIDAMANOMITI	Zelda 2 - 14 Snowball Path	Path to Snowhead
+59	04	Z2_12HAKUGINMAE	Zelda 2 - 12 Before Snow	Snowhead
+5A	03	Z2_17SETUGEN	Zelda 2 - 17 Snowfield	Path to Goron Village (Winter)
+5B	03	Z2_17SETUGEN2	Zelda 2 - 17 Snowfield 2	Path to Goron Village (Spring)
+5C	02	Z2_SEA_BS	Zelda 2 - Sea - Boss	Gyorg's Lair
+5D	01	Z2_RANDOM	Zelda 2 - Random	Secret Shrine
+5E	06	Z2_YADOYA	Zelda 2 - Inn	Stock Pot Inn
+5F	01	Z2_KONPEKI_ENT	Zelda 2 - Deep Blue - Entrance	Great Bay Coast (Cutscene)
+60	07	Z2_INSIDETOWER	Zelda 2 - Inside Tower	Clock Tower Interior
+61	01	Z2_26SARUNOMORI	Zelda 2 - 26 Monkey Forest	Woods of Mystery
+62	03	Z2_LOST_WOODS	Zelda 2 - Lost - Woods	Lost Woods
+63	01	Z2_LAST_LINK	Zelda 2 - Last - Link	The Moon - Link Trial
+64	01	Z2_SOUGEN	Zelda 2 - Field	The Moon
+65	02	Z2_BOMYA	Zelda 2 - Bomb Shop	Bomb Shop
+66	01	Z2_KYOJINNOMA	Zelda 2 - Giants' Chamber	Giants' Chamber
+67	06	Z2_KOEPONARACE	Zelda 2 - Child Epona Race	Gorman Track
+68	03	Z2_GORONRACE	Zelda 2 - Goron Race	Goron Racetrack
+69	0D	Z2_TOWN	Zelda 2 - Town	East Clock Town
+6A	0A	Z2_ICHIBA	Zelda 2 - Marketplace	West Clock Town
+6B	08	Z2_BACKTOWN	Zelda 2 - Back Town	North Clock Town
+6C	0B	Z2_CLOCKTOWER	Zelda 2 - Clock Tower	South Clock Town
+6D	03	Z2_ALLEY	Zelda 2 - Alley	Laundry Pool
